@@ -24,9 +24,7 @@ void loop() {
   else if(mode == 2){
     fadeMode();
   }
-
 }
-
 
 //--- LIGHT MODES ---//
 
@@ -77,12 +75,6 @@ void fadeMode(){
   fadeMode();
 
 }
-  
-
-
-
-
-
 //--FUNCTIONS TO CHANGE LIGHT BRIGHTNESS--
 void change(int redB, int greenB, int blueB, double seconds){
   seconds = seconds * 1000;
